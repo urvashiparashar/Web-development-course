@@ -1,0 +1,27 @@
+.div1
+{
+    text-align: center;
+    font-family: 'PanameraRegular';
+   font-weight: normal;
+   font-style: normal;
+   color: darkblue;
+   font-size: 32px;
+    
+}
+.div2
+{
+    text-align: center;
+    
+        font-family: 'PanameraRegular';
+        font-weight: normal;
+        font-style: normal;
+    font-size: 28px;
+    color: darkmagenta;
+
+}
+nav{
+    margin: 30px 0;
+    text-align: right;
+    border:2px;
+    background-color: rgb(146, 182, 182);
+}
