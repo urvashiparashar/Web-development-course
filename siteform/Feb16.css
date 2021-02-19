@@ -1,0 +1,21 @@
+/*Smame location of css and html*/
+body{
+    text-align: center;
+    background-color: rgb(245, 66, 245);
+    
+}
+h1
+{
+    color: rgb(24, 4, 136);
+}
+#feedback
+{
+    color: #034702;
+}
+#rating
+{
+    color:#5e054c;
+}
+h2{
+    border: solid;
+}
