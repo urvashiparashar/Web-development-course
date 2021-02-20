@@ -1,0 +1,37 @@
+h3{
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+    color: rgb(238, 13, 182);
+    text-align: center;
+}
+#sec1
+{
+    font-size: medium;
+    color: saddlebrown;
+    text-align: center;
+}
+#sec2
+{
+    font-size: medium;
+    color: saddlebrown;
+    text-align: center;
+}
+#sec3
+{
+    font-size: medium;
+    color: saddlebrown;
+    text-align: center;
+}
+a:hover{
+    color: salmon;
+}
+a:visited{
+    color: slateblue;
+}
+a:link{
+    color: slategrey;
+}
+a:active{
+    color: blue;
+}
+
