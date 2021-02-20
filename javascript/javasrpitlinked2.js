@@ -1,4 +1,3 @@
-var a=23;
-var b=67;
-var c=a+b;
-document.write(c);
+var a=5;
+document.getElementById("demo").innerHTML=Math.pow(a,5);
+document.write(a*4);
