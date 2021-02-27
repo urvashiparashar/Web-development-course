@@ -1,0 +1,54 @@
+
+body{
+      background: linear-gradient(85deg,  rgba(168, 172, 209, 0.904) , rgb(230, 142, 225) 
+      )fixed;
+    background-size: 100%   ;
+}
+div.main
+{
+    width: 500px;
+    margin: 100px  auto 90px auto;
+    border: solid 2px black ;
+    border-radius :12px;
+    background-color: rgba(16, 16, 17, 0.5);
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    
+}
+form{
+    text-align: center;
+    margin-bottom: 34px;
+    height: 385px;
+    
+    
+}
+div.register
+{
+    background-color: rgba(0, 0, 0.7, 0.5);
+    color: seashell;
+    width: 100%;
+    background-size: 100px;
+}
+.button {
+    
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: black;
+    color: rgb(26, 23, 23);
+    background-color: #0ec0d8;
+    border: slategray;
+    border-radius: 10px;
+    box-shadow: 0 3px #999;
+  }
+  
+  .button:hover {background-color: #e70eb8}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+  }
+
