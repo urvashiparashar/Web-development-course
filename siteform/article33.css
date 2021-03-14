@@ -56,11 +56,12 @@ h1{
     margin-top: 35px;
     
 }
-#part-a{ color: rgb(231, 226, 226);
+#part-a{ color: rgb(230, 178, 189);
          font-size: 23px;
-         font-family: 'LemonRegular';
+         
+   font-family: 'KildeSansRegular';
    font-weight: normal;
-   font-style: bold;
+   font-style: italic;
 
 
 }
