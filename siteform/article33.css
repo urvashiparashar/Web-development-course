@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
 *
 {
     margin: 0;
@@ -43,8 +45,8 @@ body
 }
 h1{
     color: blanchedalmond;
-    font-family: 'ClickuperRegular';
-   font-weight: bold;
+    font-family: 'Trade Winds', cursive;
+    font-family: 'Trade Winds', cursive;
    font-size: 55px;
 }
 #part1
