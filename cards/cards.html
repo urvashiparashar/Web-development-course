@@ -4,6 +4,7 @@
         <title>Card views</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="cards.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
       <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/avara" type="text/css"/>
@@ -24,7 +25,8 @@
                 </div>
                 <div class="card__info">
                     <div>
-                       <i class="material-icons">thumb_up</i> 276
+                       <!--<i class="material-icons">thumb_up</i> 276-->
+                       <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
                     </div>
                     <div>
                         <a href="https://blog.calm.com/intentions/resilience" class="card__link">View Article</a>
@@ -113,5 +115,10 @@
         <div id="footer" style="font-size: 18px;"><center>
             Copyrights are reserved with HOPE | 2021. </center>
         </div> 
+        <script>
+            function myFunction(x) {
+              x.classList.toggle("fa-thumbs-down");
+            }
+            </script>
     </body>
 </html>
