@@ -14,6 +14,10 @@ body{
     
     margin: 15px auto;
 }
+.card
+{
+    box-shadow: 5px 5px 5px 5px #000000;
+}
 h1 {
     font-family: 'AvaraBold';
     font-weight: normal;
