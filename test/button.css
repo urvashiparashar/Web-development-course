@@ -1,0 +1,16 @@
+.toggle-btn2
+{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    margin-top: 220px;
+    margin-left: 180px;
+    transition: .5s;
+    align-content: center;
+    box-shadow: 0 0 20px 9px #1312121f;
+    border-radius: 30px;
+    background: linear-gradient(to right,#10ff1093,#dfe20d);
+}
