@@ -9,7 +9,7 @@
    {
        $host="localhost";
        $dbUsername="root";
-       $dbPassword="T@nnu2001";
+       $dbPassword="Urv@2001";
        $dbname="test";
 
        //create connection
@@ -36,10 +36,11 @@
                $stmt=$conn->prepare($INSERT);
                $stmt->bind_param("sssiss", $fname, $lname,$email,$phno,$dob,$reason);
                $stmt->execute();
+               
             //    echo "okk successfully inserted";
            }
            else{
-               echo "someone has already registered with this email";
+               echo " <span style = 'font-size: 23px' ; margin-left: 15px ; >You cannot register as someone has already registered with this email id!!!! </span>";
            }
            $stmt->close();
            $conn->close();
@@ -53,22 +54,23 @@
      die();
    }
 ?>
+<div class="wrapper" style = "text-align:center">
 <a href="registration1.html"><button type="btn2" class="back" 
- style=" padding: 10px 30px;
-    cursor: pointer;
+style=" position: absolute;
+
     background: transparent;
     border: 0;
     outline: none;
-    position: relative;
-    margin-top: 280px;
-    margin-left: 620px;
+    height: 45px;
+    width: 98px;
     transition: .5s;
-    align-content: center;
+    
     box-shadow: 0 0 20px 9px #1312121f;
     border-radius: 30px;
-    background: linear-gradient(to right,#10ff1093,#dfe20d); "> GOBACK</a></button>
-    <body >
-      <h4>
+    background: linear-gradient(to right,#10ff1093,#dfe20d);
+top: 50%;"> GOBACK</a></button> 
+</div>
 
-      <center>Submit another response....<center></h4>
+    <body >
+      
     </body>
