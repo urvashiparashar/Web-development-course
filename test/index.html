@@ -107,7 +107,7 @@
     </section><!-- End Clients Section -->
 
     <!-- ======= extra Section starts ======= -->
-    <section id="card">
+    <!-- <section id="card">
       <div class="cards-list">
 
         <div class="card 1">
@@ -144,6 +144,79 @@
               &
               Support</p>
           </div>
+        </div>
+
+      </div>
+    </section> -->
+    <!-- ======= extra Section ======= -->
+
+    <!-- ======= extra Section starts ======= -->
+    <section id="card">
+      <div class="cards-list">
+
+      <div class="flip-card">
+        <div class="card 1 flip-card-inner ">
+          <div class="card_image flip-card-front"> <img src="https://i.redd.it/b3esnz5ra34y.jpg" />
+          <div class="card_title title-white">
+            <p style="font-size:20px;"  class="pt-5">I am feeling suicidal</p>
+          </div>
+           </div>
+              <div class="flip-card-back">
+              <h3><strong>If life is in danger call 888</strong></h3>
+              <p>It is OK to have suicidal feelings, but it is also important to reach out and let 
+              someone know how you’re feeling. Lifeline is here for you.
+               We’re here to listen and help you.</p>
+             
+            </div>
+        </div>
+     </div>
+
+     <div class="flip-card">
+        <div class="card 2  flip-card-inner">
+          <div class="card_image  flip-card-front">
+            <img src="assets/img/stress.png" />
+             <div class="card_title title-black">
+            <p style="font-size:20px;"  class="pt-5">Having a difficult time</p>
+          </div>
+          </div>
+              <div class="flip-card-back">
+              <h3><strong>Actions to take</strong></h3>
+              <p>Seek out trusted supports and talk through what is worrying you instead of withdrawing.</p>
+              <p>Contact your existing mental health professional if you have one.</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="card 3  flip-card-inner">
+          <div class="card_image  flip-card-front">
+            <img src="https://media.giphy.com/media/10SvWCbt1ytWCc/giphy.gif" />
+             <div class="card_title title-black">
+            <p style="font-size:20px;"  class="pt-5">Worried about someone</p>
+          </div>
+          </div>
+              <div class="flip-card-back">
+              <h3><strong>Actions to take</strong></h3>
+              <p>If you are concerned that someone is struggling or might be thinking about suicide and you aren't sure how to talk to them, you can call Lifeline on 888. One of our trained Crisis Supporters will be there to listen and support you.</p>
+            </div>
+        </div>
+        </div>
+
+       <div class="flip-card">
+        <div class="card 4  flip-card-inner">
+          <div class="card_image  flip-card-front">
+            <img src="https://i.gifer.com/77bb.gif" />
+             <div class="card_title title-black">
+            <p style="font-size:20px;" class="pt-5">Information
+              &
+              Support</p>
+          </div>
+          </div>
+              <div class="flip-card-back">
+              <h3><strong>Listen to real stories of hope</strong></h3>
+              <p>Life is full of challenge and change, ups, and downs. It's important to be aware of our mental wellbeing and the wellbeing of those around us.</p>
+            </div>
+        </div>
         </div>
 
       </div>
@@ -323,3 +396,65 @@
 </body>
 
 </html>
+
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
